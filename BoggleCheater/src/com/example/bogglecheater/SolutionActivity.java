@@ -23,10 +23,10 @@ public class SolutionActivity extends Activity {
 		Trie dict = loadDictionary(this, R.raw.dictionary);
 		Intent intent = getIntent();
 		String [][] board = new String[4][4];
-		String[] row1 = intent.getStringArrayExtra(MainActivity.ROW1);
-		String[] row2 = intent.getStringArrayExtra(MainActivity.ROW2);
-		String[] row3 = intent.getStringArrayExtra(MainActivity.ROW3);
-		String[] row4 = intent.getStringArrayExtra(MainActivity.ROW4);
+		String[] row1 = intent.getStringArrayExtra(BoardActivity.ROW1);
+		String[] row2 = intent.getStringArrayExtra(BoardActivity.ROW2);
+		String[] row3 = intent.getStringArrayExtra(BoardActivity.ROW3);
+		String[] row4 = intent.getStringArrayExtra(BoardActivity.ROW4);
 		board[0] = row1;
 		board[1] = row2;
 		board[2] = row3;
