@@ -5,22 +5,6 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="button_submit">Submit</string>
-    <string name="board00">1</string>
-    <string name="board01">2</string>
-    <string name="board02">3</string>
-    <string name="board03">4</string>
-    <string name="board10">5</string>
-    <string name="board11">6</string>
-    <string name="board12">7</string>
-    <string name="board13">8</string>
-    <string name="board20">9</string>
-    <string name="board21">10</string>
-    <string name="board22">11</string>
-    <string name="board23">12</string>
-    <string name="board30">13</string>
-    <string name="board31">14</string>
-    <string name="board32">15</string>
-    <string name="board33">16</string>
 
     <color name="white">#FFFFFF</color>
     <color name="yellow">#FFFF00</color>
