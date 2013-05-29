@@ -183,8 +183,8 @@
     <color name="Black">#000000</color>
     <color name="SummerSky">#38B0DE</color>
 
-    <string name="title_activity_solution">SolutionActivity</string>
+    <string name="title_activity_solution">BoggleCheater</string>
     <string name="title_activity_title">TitleActivity</string>
-    <string name="title_activity_board">BoardActivity</string>
+    <string name="title_activity_board">BoggleCheater</string>
 
 </resources>
