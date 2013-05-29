@@ -29,28 +29,5 @@
         <item name="android:inputType">textVisiblePassword</item>
         <item name="android:digits">qwertyuiopasdfghkjlzxcvbnm</item>
     </style>
-    <style name="TextFields.NotEnd">
-        <item name="android:imeOptions">actionNext</item>
-    </style>
-    <style name="TextFields.End">
-        <item name="android:imeOptions">actionDone</item>
-    </style>
-    
-    
-    <style name="HorizontalLayouts">
-		<item name="android:layout_width">match_parent</item>
-		<item name="android:layout_height">0dp</item>
-		<item name="android:layout_weight">1</item>
-		<item name="android:paddingLeft">5dp</item>
-		<item name="android:paddingRight">5dp</item>
-		<item name="android:orientation">horizontal</item>
-		<item name="android:gravity">center</item> 
-    </style>
-    <style name="HorizontalLayouts.Top">
-        <item name="android:paddingTop">5dp</item>
-    </style>
-    <style name="HorizontalLayouts.Bottom">
-        <item name="android:paddingTop">5dp</item>
-    </style>
 
 </resources>
