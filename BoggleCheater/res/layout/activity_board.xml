@@ -7,131 +7,72 @@
     android:orientation="vertical">
     
 	<LinearLayout
-	    android:layout_width="match_parent"
-	    android:layout_height="0dp"
-	    android:layout_weight="1"
-	    android:paddingLeft="5dp"
-	    android:paddingRight="5dp"
-	    android:paddingTop="5dp"
-	    android:orientation="horizontal"
-	    android:gravity="center"
-	    android:id="@+id/topLayout">
-	
+	    style="@style/HorizontalLayouts.Top">"
+
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board00"
-	        android:hint="@string/board00"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board00" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board01"
-	        android:hint="@string/board01"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board01" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board02"
-	        android:hint="@string/board02"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board02" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board03"
-	        android:hint="@string/board03"
-	        android:imeOptions="actionNext" />
-	    
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board03" />
+
 	</LinearLayout>
-	
+
 	<LinearLayout
-	    android:layout_width="match_parent"
-	    android:layout_height="0dp"
-	    android:layout_weight="1"
-	    android:paddingLeft="5dp"
-	    android:paddingRight="5dp"
-	    android:orientation="horizontal"
-	    android:gravity="center">
-	
+	    style="@style/HorizontalLayouts">
+
 	   <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board10"
-	        android:hint="@string/board10"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board10" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board11"
-	        android:hint="@string/board11"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board11" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board12"
-	        android:hint="@string/board12"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board12" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board13"
-	        android:hint="@string/board13"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board13" />
 	</LinearLayout>
-	
+
 	<LinearLayout
-	    android:layout_width="match_parent"
-	    android:layout_height="0dp"
-	    android:layout_weight="1"
-	    android:paddingLeft="5dp"
-	    android:paddingRight="5dp"
-	    android:orientation="horizontal"
-	    android:gravity="center">
-	
+	    style="@style/HorizontalLayouts">
+
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board20"
-	        android:hint="@string/board20"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board20" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board21"
-	        android:hint="@string/board21"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board21" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board22"
-	        android:hint="@string/board22"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board22" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board23"
-	        android:hint="@string/board23"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board23" />
 	</LinearLayout>
-	
+
 	<LinearLayout
-	    android:layout_width="match_parent"
-	    android:layout_height="0dp"
-	    android:layout_weight="1"
-	    android:paddingLeft="5dp"
-	    android:paddingRight="5dp"
-	    android:paddingBottom="5dp"
-	    android:orientation="horizontal"
-	    android:gravity="center">
-	
+	    style="@style/HorizontalLayouts.Bottom">
+
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board30"
-	        android:hint="@string/board30"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board30" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board31"
-	        android:hint="@string/board31"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board31" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board32"
-	        android:hint="@string/board32"
-	        android:imeOptions="actionNext" />
+	        style="@style/TextFields.NotEnd"
+	        android:id="@+id/board32" />
 	    <EditText
-	        style="@style/TextFields"
-	        android:id="@+id/board33"
-	        android:hint="@string/board33"
-	        android:imeOptions="actionDone" />
+	        style="@style/TextFields.End"
+	        android:id="@+id/board33" />
 	</LinearLayout>
 	
 	<Button

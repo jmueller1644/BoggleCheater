@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 import android.app.Activity;
 import android.content.Context;
@@ -20,20 +21,20 @@ public class SolutionActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_solution);
 		setupActionBar();
-		Trie dict = loadDictionary(this, R.raw.dictionary);
-		Intent intent = getIntent();
-		String [][] board = new String[4][4];
-		String[] row1 = intent.getStringArrayExtra(BoardActivity.ROW1);
-		String[] row2 = intent.getStringArrayExtra(BoardActivity.ROW2);
-		String[] row3 = intent.getStringArrayExtra(BoardActivity.ROW3);
-		String[] row4 = intent.getStringArrayExtra(BoardActivity.ROW4);
-		board[0] = row1;
-		board[1] = row2;
-		board[2] = row3;
-		board[3] = row4;
+		//Trie dict = loadDictionary(this, R.raw.dictionary);
 		
-		Solver solver = new Solver(board, dict);
-		solver.solve();
+		Intent intent = getIntent();
+		ArrayList<String> listBoard = intent.getStringArrayListExtra(BoardActivity.BOARD);
+		String[][] board = new String[4][4];
+		for (int i = 0; i < 4; i ++) {
+			for (int j = 0; j < 4; j ++) {
+				board[i][j] = listBoard.get(4 * i + j);
+				System.out.println(board[i][j]);
+			}
+		}
+		
+		//Solver solver = new Solver(board, dict);
+		//solver.solve();
 	}
 
 	public static Trie loadDictionary(Context ctx, int resId) {
