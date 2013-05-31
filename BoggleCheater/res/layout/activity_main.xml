@@ -3,39 +3,72 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:gravity="center_horizontal"
-    android:background="@color/Black" >
-
-    <ImageView
-        android:contentDescription="@string/description"
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:src="@drawable/my_image" />
+    android:gravity="center_vertical"
+    android:background="@color/SummerSky"
+    android:screenOrientation="portrait" >
 
 	<LinearLayout
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent"
-	    android:orientation="vertical">
-		    
-	    <TextView
-	        android:id="@+id/edt"
-	        android:textStyle="bold"
-	        android:textSize="42sp"
-	        style="@style/ScreenText"
-	        android:text="@string/start_screen"/>
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/txt_example1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:shadowColor="@color/Black"
+		    android:shadowDx="3"
+		    android:shadowDy="3"
+		    android:shadowRadius="2"
+		    android:text="@string/boggle"
+		    android:textColor="@color/DarkBlue"
+		    android:textSize="42sp"
+		    android:textStyle="bold" />
+
+		<TextView
+		    android:id="@+id/edt"
+		    style="@style/ScreenText"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:shadowColor="@color/Black"
+		    android:shadowDx="3"
+		    android:shadowDy="3"
+		    android:shadowRadius="2"
+		    android:text="@string/cheater"
+		    android:textColor="@color/Gold"
+		    android:textSize="42sp"
+		    android:textStyle="bold" />
+	    
+		<ImageView
+		    android:id="@+id/imageView2"
+		    android:layout_margin="30dp"
+		    android:layout_weight="1"
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:adjustViewBounds="true"
+		    android:contentDescription="@string/description"
+		    android:scaleType="fitCenter"
+		    android:src="@drawable/bb" />
 	
 		<Button
 		    android:layout_width="match_parent"
-		    android:layout_height="0dp"
-		    android:layout_weight="1"
+		    android:layout_height="wrap_content"
 		    android:layout_margin="7dp"
 		    android:background="@drawable/button_shape_start"
+		    android:onClick="toBoard"
 		    android:text="@string/button_start"
-		    android:textSize="28sp"
-		    android:onClick="toBoard" />
+		    android:textSize="28sp" />
+
+		<Button
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="end"
+		    android:layout_margin="7dp"
+		    android:background="@drawable/button_shape_start"
+		    android:text="@string/button_settings"
+		    android:textSize="28sp" />
 
 	</LinearLayout>
 	

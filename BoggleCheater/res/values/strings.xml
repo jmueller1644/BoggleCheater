@@ -6,7 +6,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="button_submit">Submit</string>
     <string name="button_start">Start</string>
-    <string name="start_screen">Cheater</string>
+    <string name="button_settings">Settings</string>
+    <string name="boggle">Boggle</string>
+    <string name="cheater">Cheater</string>
     <string name="description"></string>
     <string name="board00">1</string>
     <string name="board01">2</string>
