@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
 	public void toBoard(View view) {
 		Intent intent = new Intent(this, BoardActivity.class);
 		startActivity(intent);
+		System.out.println("test");
 	}
 
 }
