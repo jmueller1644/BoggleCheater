@@ -36,6 +36,10 @@ public class SolutionActivity extends Activity {
 		//Solver solver = new Solver(board, dict);
 		//solver.solve();
 	}
+	
+	protected void onResume(Bundle savedInstanceState) {
+		return;
+	}
 
 	public static Trie loadDictionary(Context ctx, int resId) {
 		InputStream inputStream = ctx.getResources().openRawResource(resId);
